@@ -3,7 +3,7 @@ Contrato COPF:
 # Como Utilizar:
 <ol>
 <li>1. Clone o reposítório.</li>
-<li> 2. No terminal, use o comando: `remixd -s <path-to-the-shared-folder> -u <remix-ide-instance-URL>` </li>
+<li> 2. No terminal, use o comando: *`remixd -s <path-to-the-shared-folder> -u <remix-ide-instance-URL>`* </li>
 <li> 3. No site https://remix.ethereum.org/, selecione `connect to localhost` como mostrado na imagem abaixo: </li>
 </ol>
 
