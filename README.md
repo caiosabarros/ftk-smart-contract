@@ -4,7 +4,9 @@ Contrato COPF:
 1. Clone o reposítório.
 2. No terminal, use o comando: `remixd -s <path-to-the-shared-folder> -u <remix-ide-instance-URL>`
 3. No site https://remix.ethereum.org/, selecione `connect to localhost` como mostrado na imagem abaixo:
-![remix1](https://user-images.githubusercontent.com/79999985/217083227-8f1c87db-7ea3-462c-a0ba-4a14a5b5036f.png)
+
+![remix2](https://user-images.githubusercontent.com/79999985/217088827-f0e2ec6d-1b7b-449c-b82b-80609eeba846.png)
+
 4. Compile o arquivo COPF.sol e faça o deploy na testnet do remix.
 5. Use as funções na seguinte orderm:
 5.1: `Deploy()`: It deploys the contract and all the information given in the constructor is then associated with assetId = 0.
