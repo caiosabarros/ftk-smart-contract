@@ -17,6 +17,7 @@ Contrato COPF:
 <ul> 5.2: `setAssetValuation()`:  It sets the asset (lote) valuation by the (MINTER_ROLE) = FTK. </ul>
 <ul> 5.3: `setAssetAvailabilityForTransfer()`: It sets the asset availability to true for assetId = 0.
 This function is here because the tokenizator will need to make an asset available to negotiations, but by default the assets are in the `Indisponível` state </ul>
+![hml](https://user-images.githubusercontent.com/79999985/217090843-36b91f8a-4746-44dd-914a-63bdc62974ce.png)
 <ul> 5.4: `transferAsset()`: to transfer assetId = 0 to another account so that the *tokenOwner* can change. </ul>
 <ul> 5.5: `assets()`: to view asset information for assetId = 0. </ul>
 </ol>
