@@ -11,12 +11,14 @@ Contrato COPF:
 
 4. Compile o arquivo COPF.sol e faça o deploy na testnet do remix.
 5. Use as funções na seguinte orderm:
-5.1: `Deploy()`: It deploys the contract and all the information given in the constructor is then associated with assetId = 0.
-5.2: `setAssetValuation()`:  It sets the asset (lote) valuation by the (MINTER_ROLE) = FTK.  
-5.3: `setAssetAvailabilityForTransfer()`: It sets the asset availability to true for assetId = 0.
-This function is here because the tokenizator will need to make an asset available to negotiations, but by default the assets are in the `Indisponível` state
-5.4: `transferAsset()`: to transfer assetId = 0 to another account so that the *tokenOwner* can change. 
-5.5: `assets()`: to view asset information for assetId = 0.
+<ol>
+<ul> 5.1: `Deploy()`: It deploys the contract and all the information given in the constructor is then associated with assetId = 0. </ul>
+<ul> 5.2: `setAssetValuation()`:  It sets the asset (lote) valuation by the (MINTER_ROLE) = FTK. </ul>
+<ul> 5.3: `setAssetAvailabilityForTransfer()`: It sets the asset availability to true for assetId = 0.
+This function is here because the tokenizator will need to make an asset available to negotiations, but by default the assets are in the `Indisponível` state </ul>
+<ul> 5.4: `transferAsset()`: to transfer assetId = 0 to another account so that the *tokenOwner* can change. </ul>
+<ul> 5.5: `assets()`: to view asset information for assetId = 0. </ul>
+</ol>
 
 # OBS:
 Nesse contexto, o termo asset se refere a um *lote* de uma fazenda, não à fazenda completa. Logo, *asset = lote*.
