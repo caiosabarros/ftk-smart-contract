@@ -57,7 +57,7 @@ struct Asset {
 }
 ```
 
-![struct](https://user-images.githubusercontent.com/79999985/216133976-41b8cfff-b443-4bfe-9f2b-f6db12c7a6f8.png)
+![assett](https://user-images.githubusercontent.com/79999985/217091133-5eb9bba7-db3d-41df-9dc1-f0c8364cfd4c.png)
 
 O dono da floresta definirá quantos talhões a floresta terá e o máximo será de 255 talhões. **(Deve ser ajustado?)**
 <! --- Quantidade de talhões a serem mintados -->
