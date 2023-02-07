@@ -77,6 +77,10 @@ No constructor, as características do asset são informadas, assim como o *mint
 
 Cada floresta será um único contrato ERC721 sendo única por ter um endereço único na Ethereum/Polygon. Cada talhão será único ao ser um id único de uma NFT dentro de um 721 único.
 
+# Vulnerabilidades
+![karl](https://user-images.githubusercontent.com/79999985/217381032-0ea01148-bd8d-4c39-91e8-8c16f8453c0f.png)
+
+
 # A Fazer 
 Definir se o máximo de talhões será 255 mesmo.
 Definir se o ERC20 ficará em um arquivo separado ou serão dois contratos nesse mesmo arquivo .sol?
